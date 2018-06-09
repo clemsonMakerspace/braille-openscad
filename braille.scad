@@ -1,9 +1,6 @@
 include <braillechars.scad>; // see braillechars.scad for list of supported characters
 
 string = [
-	[CAP,h,e,l,l,o,COMMA,_,w,o,r,l,d,BANG],
-	[CAP,h,e,l,l,o,BANG],
-	[CAP,w,o,r,l,d,BANG]
 	[h,e,l,l,o,_,w,o,r,l,d],
 ];
 
