@@ -7,7 +7,6 @@ string = [
 	[h,e,l,l,o,_,w,o,r,l,d],
 ];
 
-dotheight = .6;//.48;
 // CHIP READ THIS
 // is3D determines whether or not this will be 3D or 2D.
 // Set it to true to make the braille STLs
@@ -18,6 +17,7 @@ dotheight = .6;//.48;
 
 is3D = false;
 
+dotheight = 3.0;//.48;
 dotdiameter = 1.44;
 dotspacing = 2.34;
 cellspacing = 6.2;
