@@ -1,15 +1,18 @@
+// Openscad Braille Character Key
+
+
 _ = 0; // space
 
-a = 1;
-b = 3;
-c = 9;
-d = 25;
-e = 17;
-f = 11;
-g = 27;
-h = 19;
-i = 10;
-j = 26;
+a = 1; //1 (For coding #'s, you simply put # then these numbers. Make sure to end the number sequence with 32 + 16 if you put a letter after in the same word i.e. 406J)
+b = 3; //2
+c = 9; //3
+d = 25; //4
+e = 17; //5
+f = 11; //6
+g = 27; //7
+h = 19; //8
+i = 10; //9
+j = 26; //0
 
 k = 1 + 4;
 l = 3 + 4;
@@ -41,8 +44,13 @@ QMARK = 38; // ?
 PLUS = 44; // +
 DOT = 50; // .
 HASH = 60; // #
+SEMICOLON = 2 + 4; // ;
+// End of # = 16 + 32
 
 en = 2 + 32;
 er = 1 + 2 + 8 + 16 + 32;
+ea = 2;
 th = 1 + 8 + 16 + 32;
 and = 1 + 2 + 4 + 8 + 32;
+ing = 4 + 8 + 32;
+in = 4 + 16;
