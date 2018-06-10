@@ -26,3 +26,4 @@
       name: git
       state: latest
     become: yes
+
