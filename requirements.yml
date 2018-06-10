@@ -32,3 +32,6 @@
       name: python3
       state: latest
     become: yes
+
+  - name: install herkou
+    shell: curl https://cli-assets.heroku.com/install-ubuntu.sh | sh
