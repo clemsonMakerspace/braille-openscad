@@ -27,3 +27,8 @@
       state: latest
     become: yes
 
+  - name: install python3
+    apt:
+      name: python3
+      state: latest
+    become: yes
