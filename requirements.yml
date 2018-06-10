@@ -1,0 +1,28 @@
+---
+- name: setup requirements to develop braille-openscad  
+  hosts: local
+  connection: local
+
+  tasks:
+  - name: update the cache
+    apt:
+      update_cache: yes
+    become: yes
+
+  - name: install openscad
+    apt:
+      name: openscad
+      state: latest
+    become: yes
+
+  - name: install vim
+    apt:
+      name: vim
+      state: latest
+    become: yes
+
+  - name: install git
+    apt:
+      name: git
+      state: latest
+    become: yes
